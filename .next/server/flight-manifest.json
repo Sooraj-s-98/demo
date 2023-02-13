@@ -29,38 +29,12 @@
         "async": false
       }
     },
-    "(app-client)/./node_modules/next/dist/client/link.js": {
-      "": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "",
-        "chunks": [
-          "app/[[...slug]]/page:app/[[...slug]]/page"
-        ],
-        "async": false
-      },
-      "*": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "*",
-        "chunks": [
-          "app/[[...slug]]/page:app/[[...slug]]/page"
-        ],
-        "async": false
-      },
-      "default": {
-        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
-        "name": "default",
-        "chunks": [
-          "app/[[...slug]]/page:app/[[...slug]]/page"
-        ],
-        "async": false
-      }
-    },
     "(app-client)/./node_modules/next/dist/client/script.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "",
         "chunks": [
-          "app/[[...slug]]/layout:app/[[...slug]]/layout"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -68,7 +42,7 @@
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "*",
         "chunks": [
-          "app/[[...slug]]/layout:app/[[...slug]]/layout"
+          "app/layout:app/layout"
         ],
         "async": false
       },
@@ -76,7 +50,33 @@
         "id": "(sc_client)/./node_modules/next/dist/client/script.js",
         "name": "default",
         "chunks": [
-          "app/[[...slug]]/layout:app/[[...slug]]/layout"
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
+    "(app-client)/./node_modules/next/dist/client/link.js": {
+      "": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "",
+        "chunks": [
+          "app/contact/page:app/contact/page"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "*",
+        "chunks": [
+          "app/contact/page:app/contact/page"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./node_modules/next/dist/client/link.js",
+        "name": "default",
+        "chunks": [
+          "app/contact/page:app/contact/page"
         ],
         "async": false
       }
@@ -193,7 +193,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/[[...slug]]/layout:app/[[...slug]]/layout"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -201,7 +201,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/[[...slug]]/layout:app/[[...slug]]/layout"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -209,7 +209,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/[[...slug]]/layout:app/[[...slug]]/layout"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -219,7 +219,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "",
       "chunks": [
-        "app/[[...slug]]/layout:app/[[...slug]]/layout"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -227,7 +227,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "*",
       "chunks": [
-        "app/[[...slug]]/layout:app/[[...slug]]/layout"
+        "app/layout:app/layout"
       ],
       "async": false
     },
@@ -235,7 +235,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/script.js",
       "name": "default",
       "chunks": [
-        "app/[[...slug]]/layout:app/[[...slug]]/layout"
+        "app/layout:app/layout"
       ],
       "async": false
     }
@@ -245,7 +245,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/[[...slug]]/page:app/[[...slug]]/page"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -253,7 +253,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/[[...slug]]/page:app/[[...slug]]/page"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -261,7 +261,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/[[...slug]]/page:app/[[...slug]]/page"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     }
@@ -271,7 +271,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "",
       "chunks": [
-        "app/[[...slug]]/page:app/[[...slug]]/page"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -279,7 +279,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "*",
       "chunks": [
-        "app/[[...slug]]/page:app/[[...slug]]/page"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     },
@@ -287,7 +287,7 @@
       "id": "(app-client)/./node_modules/next/dist/client/link.js",
       "name": "default",
       "chunks": [
-        "app/[[...slug]]/page:app/[[...slug]]/page"
+        "app/contact/page:app/contact/page"
       ],
       "async": false
     }
