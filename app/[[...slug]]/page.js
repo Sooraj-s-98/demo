@@ -23,6 +23,9 @@ export default async function Home(props) {
         <li>
           <Link href="/page-b">/page-b</Link>
         </li>
+        <li>
+          <Link href="/contact">/page-b/constact</Link>
+        </li>
       </ol>
     </div>
   );
