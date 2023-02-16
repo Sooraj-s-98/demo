@@ -6,7 +6,7 @@ export default function RootLayout({ children }) {
       <head>
       <Script
         id="cookieyes"
-        src="https://cdn-cookieyes.com/client_data/d797d17a8eca1e84fd73c7ee/script.js"
+        src="https://scriptstaging.cookieyes.com/client_data/41dbb457e7b5a3e04556e5d1/script.js"
       />
         <script
           dangerouslySetInnerHTML={{
