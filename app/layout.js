@@ -4,6 +4,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+      <Script
+        id="cookieyes"
+        src="https://cdn-cookieyes.com/client_data/d797d17a8eca1e84fd73c7ee/script.js"
+      />
         <script
           dangerouslySetInnerHTML={{
             __html: `
@@ -23,7 +27,7 @@ export default function RootLayout({ children }) {
             src="https://www.googletagmanager.com/ns.html?id=GTM-M832272"
             height="0"
             width="0"
-            style={{"display":"none","visibility":"hidden"}}
+            style={{ display: "none", visibility: "hidden" }}
           ></iframe>
         </noscript>
       </body>
