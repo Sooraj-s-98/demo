@@ -4,7 +4,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-      <script
+        <script
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){var f=d.getElementsByTagName(s)[0],
@@ -18,7 +18,7 @@ export default function RootLayout({ children }) {
           id="cookieyes"
           src="https://scriptstaging.cookieyes.com/client_data/41dbb457e7b5a3e04556e5d1/script.js"
         /> */}
-          <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -29,7 +29,7 @@ export default function RootLayout({ children }) {
           `,
           }}
         />
-        <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
             (function(h,o,t,j,a,r){
