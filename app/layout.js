@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
           src="https://scriptstaging.cookieyes.com/client_data/41dbb457e7b5a3e04556e5d1/script.js"
         /> */}
         <Script
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -30,6 +31,7 @@ export default function RootLayout({ children }) {
           }}
         />
         <Script
+          strategy="lazyOnload"
           dangerouslySetInnerHTML={{
             __html: `
             (function(h,o,t,j,a,r){
