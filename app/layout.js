@@ -4,7 +4,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <script
+        <Script
           dangerouslySetInnerHTML={{
             __html: `
             (function(w,d,s,l,i){var f=d.getElementsByTagName(s)[0],
